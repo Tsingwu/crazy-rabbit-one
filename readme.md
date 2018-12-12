@@ -1,5 +1,5 @@
 <div align=center>
-	<img src="/src/assets/logo.png" width="120" height="120" alt=""/>
+	<img src="./src/assets/logo.png" width="120" height="120" alt=""/>
 </div>
 
 <div align=center>
@@ -53,7 +53,7 @@ The packaged files will be in the dist folder.
 
 ## Test
 ```bash
-# Unit tests run in PhantomJS with Karma + Mocha + karma-webpack
+# Unit tests run in Chrome with Karma + Mocha + karma-webpack
 npm run unit
 
 # Unit tests run in JSDOM with Jest
